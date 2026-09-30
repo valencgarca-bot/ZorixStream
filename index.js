@@ -30,7 +30,9 @@ const CUENTAS_GMAIL_MAP = {
 
 const PLATAFORMAS = {
     'netflix': { nombre: 'Netflix', color: '#E50914', alpha: 'rgba(229, 9, 20, 0.15)', logo: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg', keyword_from: 'netflix' },
-    'disney': { nombre: 'Disney+', color: '#ffffff', alpha: 'rgba(255, 255, 255, 0.1)', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg', keyword_from: 'disneyplus' }
+    'disney': { nombre: 'Disney+', color: '#ffffff', alpha: 'rgba(255, 255, 255, 0.1)', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg', keyword_from: 'disneyplus' },
+    'crunchyroll': { nombre: 'Crunchyroll', color: '#F47521', alpha: 'rgba(244, 117, 33, 0.15)', logo: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/crunchyroll.svg', keyword_from: 'crunchyroll' },
+    'spotify': { nombre: 'Spotify', color: '#1DB954', alpha: 'rgba(29, 185, 84, 0.15)', logo: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg', keyword_from: 'spotify' }
 };
 
 app.use(express.urlencoded({ extended: true }));
