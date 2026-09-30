@@ -1,0 +1,17 @@
+{
+  "name": "betflix-mexico-panel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.3",
+    "nodemailer": "^6.9.13",
+    "sqlite3": "^5.1.6"
+  }
+}
